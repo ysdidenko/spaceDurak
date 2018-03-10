@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Space Durak</title>
+</head>
+
+<body>
+    <div class="loading"><div class="bar"></div></div>
+	<div class="main-menu">
+        <div class="logo"></div>
+        <div class="game-title"><span>Space Durak</span></div>
+	    <div class="starter-menu">
+	        <span class="btn-play">New Game</span>
+	        <span class="btn-settings">Settings</span>
+	    </div>
+	</div>
+    <div class="game"></div>
+    <div class="settings-menu">
+           <div class="wrap">
+                <div class="settings">
+                    <span class="title">Settings</span>
+                    <div class="setting-row half-row">
+                       <strong>Sound:</strong><span class="switcher switch-sound"></span>
+                    </div>
+                    <div class="setting-row half-row vibro-row">
+                        <strong>Vibro:</strong><span class="switcher switch-vibro"></span> 
+                    </div>
+                    <div class="setting-row opponents-row">
+                        <strong>Opponents:</strong><span class="choice" data-opponents="1">1</span><span class="choice" data-opponents="2">2</span><span class="choice" data-opponents="3">3</span>
+                    </div>
+                    <div class="setting-row cards-in-deck-row">
+                        <strong>Cards in deck:</strong><span class="choice" data-cards-in-deck="36">36</span><span class="choice" data-cards-in-deck="52">52</span>
+                    </div>
+                    <div class="setting-row">
+                        <span class="restart">Restart</span><span class="go-ads-free">Remove ads</span>
+                    </div>
+                </div>
+           </div>
+           <span class="close"></span>
+           <span class="home"></span>
+    </div>
+    <div class="info"><div class="holder"></div></div>
+   <!-- JS -->
+    <!--script src="cordova.js"></script-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
